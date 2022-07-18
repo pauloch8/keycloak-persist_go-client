@@ -10,6 +10,12 @@ Adicionar o client `app` com a Root URL *http://localhost:8081*, e o type access
 
 Adicionar um usuario `myuser` com Email Verified `ON`, e setar o password na aba Credentials, com Temporary `Off`
 
+## Container app
+
+O container app vai parar quando subir e não conseguir se conectar com o Keycloak. Portanto, enquanto o keycloak não tiver subido ele vai cair.
+
+Quando o Keycloak estiver pronto, dê start no container do app novamente
+
 ## Arquivo .env
 
 O arquivo deve conter as seguintes variáveis:
