@@ -16,6 +16,7 @@ O arquivo deve conter as seguintes variáveis:
 
 ```
 CLIENTSECRET=XXXXX
+KEYCLOAK_HOST=xxxxx
 POSTGRESQL_USER=xxxxx
 POSTGRESQL_PASS=xxxxx
 POSTGRESQL_DB=xxxxx
