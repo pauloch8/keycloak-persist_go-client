@@ -4,11 +4,21 @@ Subir o container
 
 `docker-compose up`
 
+## Configuração da aplicação no Keycloak
+
+### Manualmente
+
 Adicionar o realm `demo`
 
 Adicionar o client `app` com a Root URL *http://localhost:8081*, e o type access `confidential`. Copiar o segredo da aba Credentials e criar o arquivo .env com o segredo setado na variável `CLIENTSECRET`
 
 Adicionar um usuario `myuser` com Email Verified `ON`, e setar o password na aba Credentials, com Temporary `Off`
+
+### Importando JSON
+
+Entre no [Admin Console](http://keycloak:8080/admin/) e clique em Import no menu lateral esquerdo
+
+Selecione o arquivo realm-export.json
 
 ## Container app
 
